@@ -1,7 +1,11 @@
+@font-face {
+  font-family: "Roadgeek 2005 Mittelschrift";
+  src: url("roadgeek-2005-mittelschrift.ttf") format("ttf");
+}
+
 body {
   background-color: white;
-  font-family: Roadgeek 2005 Mittelschrift;
-  src: url(roadgeek-2005-mittelschrift.ttf);
+  font-family: "Roadgeek 2005 Mittelschrift", Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
 
@@ -31,7 +35,8 @@ nav li {
 nav a {
   text-decoration: none;
   color: white;
-  padding: 20px;
+  padding-right: 30px;
+  font-size: 30px;
 }
 
 .active {
@@ -45,4 +50,11 @@ nav a:hover {
 
 .menu {
   background-color: #0b3a40;
+  padding: 10px;
+}
+
+footer {
+  background-color: #0b3a40;
+  color: white;
+  padding: 10px;
 }
