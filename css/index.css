@@ -1,0 +1,9 @@
+.home-first img {
+  float: left;
+  margin-right: 30px;
+}
+
+.home-second img {
+  float: right;
+  margin-left: 30px;
+}
