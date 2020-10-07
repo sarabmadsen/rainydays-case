@@ -1,6 +1,24 @@
+.home-first {
+  display: inline-block;
+}
+
+p {
+  max-width: 1760px;
+}
+
 .home-first img {
+  width: 100%;
+  max-width: 880px;
+  max-height: 320px;
   float: left;
-  margin-right: 30px;
+  margin: 10px 10px 10px 0px;
+}
+
+.home-first p h1 {
+  float: right;
+  margin: 10px 0px 10px 10px;
+  max-width: 880px;
+  max-height: 320px;
 }
 
 .home-second img {

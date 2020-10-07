@@ -35,7 +35,7 @@ nav li {
 nav a {
   text-decoration: none;
   color: white;
-  padding-right: 30px;
+  padding: 4px 15px;
   font-size: 30px;
 }
 
@@ -51,6 +51,7 @@ nav a:hover {
 .menu {
   background-color: #0b3a40;
   padding: 10px;
+  margin: 2px;
 }
 
 footer {
@@ -60,9 +61,14 @@ footer {
 }
 
 header img {
-  max-width: 100%;
+  width: 100%;
 }
 
 form {
   background-color: lightgray;
+}
+
+.logo {
+  width: 40%;
+  margin: 0px auto;
 }
