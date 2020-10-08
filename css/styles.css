@@ -3,6 +3,16 @@
   src: url("roadgeek-2005-mittelschrift.ttf") format("ttf");
 }
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
   background-color: white;
   font-family: "Roadgeek 2005 Mittelschrift", Arial, Helvetica, sans-serif;
