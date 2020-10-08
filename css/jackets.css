@@ -1,4 +1,21 @@
-.img {
-  max-width: 10px;
-  max-height: 30px;
+.row1 {
+  padding: 10px;
+}
+
+.row2 {
+  padding: 10px;
+}
+
+input {
+  display: block;
+  margin: 10px;
+}
+
+label {
+  padding: 10px;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  margin: 10px;
 }

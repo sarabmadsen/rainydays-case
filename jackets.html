@@ -8,6 +8,7 @@
     />
     <meta name="viewport" content="width=device-widt, initial-scale=1" />
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/jackets.css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/17d5012144.js"
       crossorigin="anonymous"
@@ -32,55 +33,86 @@
     </header>
     <main>
       <h1>Jackets</h1>
-      <section>
-        <img src="images/the-yellow-one.jpg" alt="The yellow one" />
-        <h2>The yellow one</h2>
-        <p>NOK 599,-</p>
-        <p><a href="jackets/the-yellow-one.html">Explore</a></p>
-      </section>
-      <section>
-        <img src="images/the-red-one.jpg" alt="The red one" />
-        <h2>The red one</h2>
-        <p>NOK 599,-</p>
-        <p>Explore</p>
-      </section>
-      <section>
-        <img src="images/the-winter-one.jpg" alt="The winter one" />
-        <h2>The winter one</h2>
-        <p>NOK 599,-</p>
-        <p>Explore</p>
-      </section>
-      <section>
-        <img src="images/the-fishing-one.jpg" alt="The fishing one" />
-        <h2>The fishing one</h2>
-        <p>NOK 599,-</p>
-        <p>Explore</p>
-      </section>
-      <section>
-        <img src="images/the-hiking-one.jpg" alt="The hiking one" />
-        <h2>The hiking one</h2>
-        <p>NOK 599,-</p>
-        <p>Explore</p>
-      </section>
-      <section>
-        <img src="images/the-cool-one.jpg" alt="The cool one" />
-        <h2>The cool one</h2>
-        <p>NOK 599,-</p>
-        <p>Explore</p>
-      </section>
+      <div class="row1">
+        <section class="one">
+          <img src="images/the-yellow-one.jpg" alt="The yellow one" />
+          <h2>The yellow one</h2>
+          <p>NOK 599,-</p>
+          <p><a href="jackets/the-yellow-one.html">Explore</a></p>
+        </section>
+        <section class="two">
+          <img src="images/the-red-one.jpg" alt="The red one" />
+          <h2>The red one</h2>
+          <p>NOK 599,-</p>
+          <p>Explore</p>
+        </section>
+        <section class="three">
+          <img src="images/the-winter-one.jpg" alt="The winter one" />
+          <h2>The winter one</h2>
+          <p>NOK 599,-</p>
+          <p>Explore</p>
+        </section>
+      </div>
+      <div class="row2">
+        <section class="four">
+          <img src="images/the-fishing-one.jpg" alt="The fishing one" />
+          <h2>The fishing one</h2>
+          <p>NOK 599,-</p>
+          <p>Explore</p>
+        </section>
+        <section class="five">
+          <img src="images/the-hiking-one.jpg" alt="The hiking one" />
+          <h2>The hiking one</h2>
+          <p>NOK 599,-</p>
+          <p>Explore</p>
+        </section>
+        <section class="six">
+          <img src="images/the-cool-one.jpg" alt="The cool one" />
+          <h2>The cool one</h2>
+          <p>NOK 599,-</p>
+          <p>Explore</p>
+        </section>
+      </div>
       <section>
         <h3>Refine search</h3>
-        <ul>
-          <li>All jackets</li>
-          <li>Female</li>
-          <li>Male</li>
-          <li>Goretex</li>
-          <li>Down</li>
-          <li>Fashion</li>
-          <li>Hiking</li>
-          <li>Kayaking</li>
-          <li>Skiing</li>
-        </ul>
+        <form action="form-success.php" method="POST">
+          <fieldset>
+            <input type="checkbox" name="all" value="all" id="all" />
+            <label for="all">All jackets</label>
+            <input type="checkbox" name="female" value="female" id="female" />
+            <label for="female">Female</label>
+            <input type="checkbox" name="male" value="male" id="male" />
+            <label for="male">Male</label>
+            <input
+              type="checkbox"
+              name="goretex"
+              value="goretex"
+              id="goretex"
+            />
+            <label for="goretex">Goretex</label>
+            <input type="checkbox" name="down" value="down" id="down" />
+            <label for="down">Down</label>
+            <input
+              type="checkbox"
+              name="fashion"
+              value="fashion"
+              id="fashion"
+            />
+            <label for="fashion">Fashion</label>
+            <input type="checkbox" name="hiking" value="hiking" id="hiking" />
+            <label for="hiking">Hiking</label>
+            <input
+              type="checkbox"
+              name="kayaking"
+              value="kayaking"
+              id="kayaking"
+            />
+            <label for="kayaking">Kayaking</label>
+            <input type="checkbox" name="skiing" value="skiing" id="skiing" />
+            <label for="skiing">Skiing</label>
+          </fieldset>
+          <input type="submit" value="Search" />
+        </form>
       </section>
     </main>
     <footer>Copyright &copy;</footer>
