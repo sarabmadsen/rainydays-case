@@ -1,14 +1,37 @@
 .row1 {
   padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .row2 {
   padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
-input {
-  display: block;
-  margin: 10px;
+.item {
+  flex: 1;
+}
+
+.item img {
+  margin: 10px 0px 10px 10px;
+  padding: 10px 0px 10px 10px;
+}
+
+.item h2 p a {
+  margin: 10px 10px 10px 0px;
+  padding: 10px 10px 10px 0px;
+}
+
+.fieldset {
+  display: inline-block;
 }
 
 label {
@@ -18,4 +41,13 @@ label {
 input[type="submit"] {
   padding: 10px;
   margin: 10px;
+}
+
+@media only screen and (min-width: 660px) {
+  .row1 {
+    flex-direction: row;
+  }
+  .row2 {
+    flex-direction: row;
+  }
 }
