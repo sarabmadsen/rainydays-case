@@ -29,12 +29,24 @@ a:hover {
   color: #8f3e00;
 }
 
-nav li {
-  display: inline-block;
+.menu {
+  background-color: #0b3a40;
+  padding: 10px;
+  width: 100%;
 }
 
-nav a {
-  text-decoration: none;
+.text a {
+  color: white;
+  padding: 4px 15px;
+  font-size: 30px;
+}
+
+nav li {
+  display: inline-block;
+  text-align: justify;
+}
+
+i {
   color: white;
   padding: 4px 15px;
   font-size: 30px;
@@ -45,20 +57,24 @@ nav a:hover {
   color: white;
 }
 
-.current {
-  text-decoration: underline;
+nav i:hover {
+  background-color: #8f3e00;
+  color: white;
 }
 
-.menu {
-  background-color: #0b3a40;
-  padding: 10px;
-  margin: 2px;
+.current {
+  text-decoration: underline;
 }
 
 footer {
   background-color: #0b3a40;
   color: white;
   padding: 10px;
+}
+
+footer i:hover {
+  background-color: #8f3e00;
+  color: white;
 }
 
 header img {
